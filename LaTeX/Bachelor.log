@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.2)  2 JUL 2023 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.5.2)  2 JUL 2023 12:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1202,7 +1202,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@lot=\write8
 \openout8 = `Bachelor.lot'.
 
- [12] (Chapters/Introduction.tex
+ [12] (Chapters/1_Introduction.tex
 Kapitola 1.
 
 Underfull \vbox (badness 5022) has occurred while \output is active []
@@ -1210,7 +1210,7 @@ Underfull \vbox (badness 5022) has occurred while \output is active []
  [13
 
 
-]) (Chapters/AnalysisMethod.tex [14]
+]) (Chapters/2_AnalysisMethod.tex [14]
 Kapitola 2.
 [15
 
@@ -1256,7 +1256,7 @@ File: Figures/GloVe_representation.jpg Graphic file (type jpg)
 <use Figures/GloVe_representation.jpg>
 Package pdftex.def Info: Figures/GloVe_representation.jpg  used on input line 135.
 (pdftex.def)             Requested size: 377.62642pt x 292.74016pt.
- [20 <./Figures/GloVe_representation.jpg>]) (Chapters/NN.tex [21]
+ [20 <./Figures/GloVe_representation.jpg>]) (Chapters/3_NN.tex [21]
 Kapitola 3.
 <Figures/NeuronModel.jpg, id=570, 332.74312pt x 156.585pt>
 File: Figures/NeuronModel.jpg Graphic file (type jpg)
@@ -1301,7 +1301,7 @@ File: Figures/GRU_math_operation.png Graphic file (type png)
 <use Figures/GRU_math_operation.png>
 Package pdftex.def Info: Figures/GRU_math_operation.png  used on input line 192.
 (pdftex.def)             Requested size: 377.62642pt x 42.079pt.
- [28 <./Figures/GRU_architecture_neuron.png> <./Figures/GRU_math_operation.png>]) (Chapters/Transformer.tex [29]
+ [28 <./Figures/GRU_architecture_neuron.png> <./Figures/GRU_math_operation.png>]) (Chapters/4_Transformer.tex [29]
 Kapitola 4.
 
 Underfull \vbox (badness 2197) has occurred while \output is active []
@@ -1367,7 +1367,7 @@ File: Figures/BERT_sequence.png Graphic file (type png)
 <use Figures/BERT_sequence.png>
 Package pdftex.def Info: Figures/BERT_sequence.png  used on input line 235.
 (pdftex.def)             Requested size: 472.03123pt x 54.3175pt.
-) (Chapters/Results.tex [40 <./Figures/BERT_bi.png> <./Figures/BERT_sequence.png>]
+) (Chapters/5_Results.tex [40 <./Figures/BERT_bi.png> <./Figures/BERT_sequence.png>]
 Kapitola 5.
 [41
 
@@ -1571,7 +1571,7 @@ Package pdftex.def Info: Figures/MULTI_BERT_conf.png  used on input line 970.
  [73 <./Figures/MULTI_GRU_Attention_conf.png> <./Figures/MULTI_BERT_conf.png>] [74] [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76] [77] [78]) (Chapters/Conclusion.tex [79]
+ [76] [77] [78]) (Chapters/6_Conclusion.tex [79]
 Kapitola 6.
 [80
 
@@ -1585,8 +1585,8 @@ Package logreq Info: Writing requests to 'Bachelor.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28984 strings out of 476315
- 504436 string characters out of 5787197
+ 28985 strings out of 476315
+ 504506 string characters out of 5787197
  1967068 words of memory out of 5000000
  48569 multiletter control sequences out of 15000+600000
  577221 words of font info for 70 fonts, out of 8000000 for 9000
