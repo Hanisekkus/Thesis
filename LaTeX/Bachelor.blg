@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Bachelor.blg'
-[111] biber-MSWIN64:340> INFO - === 
+[110] biber-MSWIN64:340> INFO - === 
 [153] Biber.pm:419> INFO - Reading 'Bachelor.bcf'
-[221] Biber.pm:979> INFO - Found 25 citekeys in bib section 0
-[234] Biber.pm:4419> INFO - Processing section 0
-[249] Biber.pm:4610> INFO - Looking for bibtex file 'biblatex-examples.bib' for section 0
-[437] bibtex.pm:1713> INFO - LaTeX decoding ...
-[531] bibtex.pm:1519> INFO - Found BibTeX data source 'C:/Users/Johny/AppData/Local/Programs/MiKTeX/bibtex/bib/biblatex/biblatex-examples.bib'
-[538] Biber.pm:4610> INFO - Looking for bibtex file 'coffee.bib' for section 0
-[572] bibtex.pm:1713> INFO - LaTeX decoding ...
-[590] bibtex.pm:1519> INFO - Found BibTeX data source 'coffee.bib'
-[670] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
-[670] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[670] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
-[695] bbl.pm:660> INFO - Writing 'Bachelor.bbl' with encoding 'UTF-8'
-[701] bbl.pm:763> INFO - Output to Bachelor.bbl
+[224] Biber.pm:979> INFO - Found 25 citekeys in bib section 0
+[238] Biber.pm:4419> INFO - Processing section 0
+[252] Biber.pm:4610> INFO - Looking for bibtex file 'biblatex-examples.bib' for section 0
+[451] bibtex.pm:1713> INFO - LaTeX decoding ...
+[545] bibtex.pm:1519> INFO - Found BibTeX data source 'C:/Users/Johny/AppData/Local/Programs/MiKTeX/bibtex/bib/biblatex/biblatex-examples.bib'
+[553] Biber.pm:4610> INFO - Looking for bibtex file 'coffee.bib' for section 0
+[589] bibtex.pm:1713> INFO - LaTeX decoding ...
+[607] bibtex.pm:1519> INFO - Found BibTeX data source 'coffee.bib'
+[680] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[680] UCollate.pm:68> INFO - Overriding locale 'cs-CZ' defaults 'variable = shifted' with 'variable = non-ignorable'
+[680] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'cs-CZ'
+[704] bbl.pm:660> INFO - Writing 'Bachelor.bbl' with encoding 'UTF-8'
+[709] bbl.pm:763> INFO - Output to Bachelor.bbl

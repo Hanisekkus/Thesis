@@ -1,13 +1,13 @@
 \chapter{Neuronové sítě}
-Neuronové sítě (Neural Network)~\cite{link1}~\cite{link20} jsou výpočetní modely inspirované biologickým mozkem.
-Základními stavebními jednotkami neuronové sítě jsou neurony, které mají své vstupy, váhy a výstup.
+Neuronové sítě (Neural Network)~\cite{link1}~\cite{link20} jsou výpočetní modely inspirované komplexním systémem přenosů informací v biologickém mozku.
+Základními stavebními jednotkami výpočetního modelu neuronové sítě jsou neurony, které mají své vstupy, váhy a výstup.
 
 Každý neuron obdrží vstupní data od jiných neuronů, přičemž každému vstupu je předána určitá váha.
 Váhy slouží k určení důležitosti jednotlivých vstupů.
-Neuron zpracovává své vstupní data pomocí aktivačních funkcí a provede sumaci vážených vstupů.
+Neuron zpracovává své vstupní data pomocí aktivačních funkcí a provede souhrn vážených vstupů.
 Výsledek této operace je pak předán dalším neuronům jako výstup.
 
-Je důležité poznamenat, že neuronový model~\ref{fig:Model neuronu} může mít libovolný počet vstupů a váh, ale každý neuron generuje pouze jeden výstup.
+Je důležité poznamenat, že neuronový model~\ref{fig:Model neuronu} může mít libovolný počet vstupů a vah, ale každý neuron generuje pouze jeden výstup.
 Tímto způsobem se vytváří komplexní sítě neuronů, které spolupracují při zpracování informací a řešení problémů.
 
 Neuronové sítě se využívají v mnoha oblastech umělé inteligence a strojového učení.
@@ -34,7 +34,7 @@ Výsledek se vkládá do aktivační funkce a vychází výstup, který se posí
 \end{itemize}
 Proces, při kterém se vstupní data postupně předávají z jednoho neuronu na druhý až k výstupu, se nazývá dopředná propagace (forward propagation).
 
-Při dopředné propagaci se vstupní data předají do prvního neuronu, který provede výpočet pomocí aktivační funkce a váh a výsledek předá jako výstup druhému neuronu.
+Při dopředné propagaci se vstupní data předají do prvního neuronu, který provede výpočet pomocí aktivační funkce a vah a výsledek předá jako výstup druhému neuronu.
 Tento proces se opakuje, dokud výstup nedorazí ke konečnému neuronu nebo výstupní vrstvě neuronové sítě.
 
 \section{Učení neuronové sítě}
@@ -43,13 +43,13 @@ Trénovací data jsou data, která slouží k učení a nastavení parametrů s�
 
 Proces trénování neuronové sítě obecně probíhá ve třech fázích:
 
-Dopředná propagace (Forward propagation): Vstupní data jsou předána sítí, která je pomocí váh a biasů upravuje a předává z neuronu na neuron až k výstupní vrstvě.
+Dopředná propagace (Forward propagation): Vstupní data jsou předána sítí, která je pomocí vah a biasů upravuje a předává z neuronu na neuron až k výstupní vrstvě.
 V této fázi se vypočítávají aktivační funkce a výstupy jednotlivých neuronů.
 
 Zpětná propagace (Backward propagation): Po provedení dopředné propagace se porovnávají výstupy sítě s očekávanými výstupy na základě trénovacích dat.
-Mezi těmito výstupy je propagována zpět skrze síť a jsou vypočítány gradienty, které udávají směr a míru, pomocí jaké je potřeba upravit váhy a biasy jednotlivých neuronů.
+Mezi těmito výstupy je chyba propagována zpět skrze síť a jsou vypočítány gradienty, které udávají směr a míru, pomocí jaké je potřeba upravit váhy a biasy jednotlivých neuronů.
     
-Aktualizace váh: Na základě gradientů zpětné propagace jsou aktualizovány váhy a biasy neuronů, aby byly přizpůsobeny tak, aby minimalizovaly chybu mezi výstupy sítě a očekávanými výstupy.
+Aktualizace vah: Na základě gradientů zpětné propagace jsou aktualizovány váhy a biasy neuronů, aby byly přizpůsobeny tak a minimalizovaly tak chybu mezi výstupy sítě a očekávanými výstupy.
 Tím se zlepšuje schopnost sítě predikovat správné výstupy.
 
 Tento proces trénování se opakuje pro každou trénovací sadu dat, aby se síť co nejlépe přizpůsobila dané úloze.

@@ -8,12 +8,6 @@ Zpracování přirozeného jazyka se zaměřuje na širokou škálu výzev, vče
 Má bohatou historii a vyvinulo se mnoho technik pro zpracování přirozeného jazyka.
 V této konkrétní práci je zvláště vhodná technika nazývaná Sentimentální analýza (Sentiment Analysis), která vychází z přirozeného zpracování jazyka.\@
 
-\section{Sentimentální analýza}
-Sentimentální analýza (Sentiment analysis)~\cite{link10} je jednou z nejčastěji používaných technik v oblasti zpracování přirozeného jazyka.\@
-Je široce využívána pro řešení problémů spojených s určováním polarity textu, tj.\ zda je text pozitivní, neutrální nebo negativní.
-Tato technika se aplikuje na různé typy textů, jako jsou dotazníky, komentáře, recenze a také na detekci strojového překladu, což je také cílem této práce.
-Před použitím analýzy je však nezbytné předzpracovat text, na kterém chceme provádět detekci, a převést ho do formátu, který je srozumitelný pro modely.
-
 \section{Metody analýzy textu}
 Algoritmy strojového učení, jako jsou ty využívané při zpracování přirozeného jazyka, preferují jasně definovaná vstupní data pevné délky.
 Proto je často potřeba přizpůsobit data tak, aby odpovídala požadovanému formátu.
@@ -96,7 +90,7 @@ Díky technice vkládání slov mají stroje větší schopnost porovnávat a po
 	\caption{Word embedding~\cite{link5}}\label{fig:Word embedding}
 \end{figure}
 
-\subsection{Word2Vec}
+\section{Word2Vec}
 Word2Vec~\cite{link6} je významným příkladem modelu pro vytváření vkládání slov~\cite{link5} a byl vyvinutý Tomášem Mikolovem z Google. Tento model umožňuje efektivní převod textu do strojové podoby a zachycuje vztahy mezi slovy.
 
 Word2Vec~\ref{fig:Word2Vec predstaveni moznosti} se skládá z několika algoritmů, které jsou schopné naučit se reprezentaci slov. Existují dva hlavní modely pro učení techniky vkládání slov pomocí Word2Vec: Continuous Bag-of-Words (CBOW) a Continuous Skip-gram.
@@ -112,6 +106,33 @@ GloVe se stal populární volbou pro vytváření vkládání slov díky své sc
 	\includegraphics[width=1\textwidth]{Figures/word2vec_diagrams.png}
 	\caption{Word2Vec představení možností~\cite{link6}}\label{fig:Word2Vec predstaveni moznosti}
 \end{figure}
+
+\subsection{Continuous Bag-Of-Words}
+Continuous Bag-Of-Words (CBOW)~\cite{link12} je model strojového učení používaný pro vytváření reprezentace vkládaných slov.
+Jeho hlavním cílem je předpovědět cílové slovo na základě kontextu, který je definován jako určitý počet slov před a za daným slovem v textu.
+CBOW se snaží naučit vektory slov, které mají kvalitní reprezentace pro předpovídání cílových slov na základě kontextuálního významu.
+
+\subsection{Skip-gram}
+Metoda Skip-gram~\cite{link13} je další volbou pro model Word2Vec a také je používána společně s CBOW v GloVe.
+Hlavním rozdílem mezi Skip-gram a CBOW je v tom, co tyto metody přesně předpovídají.
+
+CBOW předpovídá slovo na základě jeho okolí.
+Zkouší určit, jaké slovo by se nejlépe hodilo do středu daného okolí na základě kontextu.
+Například, pokud bylo okolí slova `auto' ve větě `Rychle jedoucí auto předjelo nákladní vozidlo' CBOW se snaží předpovědět slovo `auto' na základě slov `jedoucí' a `předjelo'.
+
+Na druhou stranu, metoda Skip-gram předpovídá okolí daného slova.
+Zkouší určit, jaká slova by se mohla objevit v okolí daného slova na základě kontextu.
+Pokračujeme-li v příkladu věty `Rychle jedoucí auto předjelo nákladní vozidlo', Skip-gram by se snažil předpovědět slova `jedoucí' a `předjelo' na základě slova `auto'.
+
+\subsection{CBOW a Skip-gram porovnání}
+V rámci modelu Word2Vec je metoda CBOW rychlejší, protože zpracovává celý kontext jako jednu entitu.
+
+Metoda Skip-gram vytváří různé páry slov pro každé slovo v kontextu.
+Každý pár se skládá z jednoho vstupního centrálního slova a jednoho výstupního okolního slova.
+Skip-gram se snaží předpovědět okolní slova na základě daného centrálního slova.
+
+Nicméně, výběr mezi metodou CBOW a Skip-gram závisí na konkrétních úkolech a datových sadách.
+Obě metody mají své výhody a omezení a jejich volba závisí na konkrétních potřebách a podmínkách aplikace.
 
 \section{GloVe}
 GloVe (Global Vectors for Word Representation)~\cite{link18} je vylepšeným modelem v porovnání s Word2Vec~\cite{link6} a také vytváří reprezentaci vkládaných slov.
@@ -136,31 +157,11 @@ Vytvořená reprezentace vztahů mezi jednotlivými slovy lze pochopitelněji vy
 	\caption{GloVe reprezentace slov ve 2D prostoru~\cite{link18}}\label{fig:GloVe reprezentace slov ve 2D prostoru}
 \end{figure}
 
-\subsection{Continuous Bag-Of-Words}
-Continuous Bag-Of-Words (CBOW)~\cite{link12} je model strojového učení používaný pro vytváření reprezentace vkládaných slov.
-Jeho hlavním cílem je předpovědět cílové slovo na základě kontextu, který je definován jako určitý počet slov před a za daným slovem v textu.
-CBOW se snaží naučit vektory slov, které mají kvalitní reprezentace pro předpovídání cílových slov na základě kontextuálního významu.
-
-\subsection{Skip-gram}
-Metoda Skip-gram~\cite{link13} je další volbou pro model Word2Vec a také je používána společně s CBOW v GloVe.
-Hlavním rozdílem mezi Skip-gram a CBOW je v tom, co tyto metody přesně předpovídají.
-
-CBOW předpovídá slovo na základě jeho okolí.
-Zkouší určit, jaké slovo by se nejlépe hodilo do středu daného okolí na základě kontextu.
-Například, pokud bylo okolí slova `auto' ve větě `Rychle jedoucí auto předjelo nákladní vozidlo' CBOW se snaží předpovědět slovo `rychle' na základě slov `jedoucí' a `předjelo'.
-
-Na druhou stranu, metoda Skip-gram předpovídá okolí daného slova.
-Zkouší určit, jaká slova by se mohla objevit v okolí daného slova na základě kontextu.
-Pokračujeme-li v příkladu věty `Rychle jedoucí auto předjelo nákladní vozidlo', Skip-gram by se snažil předpovědět slova `jedoucí' a `předjelo' na základě slova `auto'.
-
-\subsection{CBOW a Skip-gram porovnání}
-V rámci modelu Word2Vec je metoda CBOW rychlejší, protože zpracovává celý kontext jako jednu entitu.
-
-Metoda Skip-gram vytváří různé páry slov pro každé slovo v kontextu.
-Každý pár se skládá z jednoho vstupního centrálního slova a jednoho výstupního okolního slova.
-Skip-gram se snaží předpovědět okolní slova na základě daného centrálního slova.
-
-Nicméně, výběr mezi metodou CBOW a Skip-gram závisí na konkrétních úkolech a datových sadách.
-Obě metody mají své výhody a omezení a jejich volba závisí na konkrétních potřebách a podmínkách aplikace.
+\section{Sentimentální analýza}
+Sentimentální analýza (Sentiment analysis)~\cite{link10} je jednou z nejčastěji používaných technik v oblasti zpracování přirozeného jazyka.\@
+Je široce využívána pro řešení problémů spojených s určováním polarity textu, tj.\ zda je text pozitivní, neutrální nebo negativní.
+Tato technika se aplikuje na různé typy textů, jako jsou dotazníky, komentáře, recenze a také na detekci strojového překladu, což je také cílem této práce.
+Sentimentální analýza se použije pro vyhodnocení výstupů modelů a převádí tyto výstupy do sémantického hodnocení.
+Tím umožňuje modelům poskytnout kvantitativní hodnocení, zda je text pozitivní, negativní nebo neutrální.
 
 \endinput

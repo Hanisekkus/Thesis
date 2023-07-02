@@ -171,7 +171,7 @@ Původně veřejně publikován BERT má dva typy konfigurace pro sdílení.
 \item BERT LARGE s 24 enkodéry a 16ti self-attention head jednotkami
 \end{itemize}
 
-BERT je přetrénován na neoznačených (unsupervised) jazykových reprezentacích, což znamená, že trénovací data, na kterých je trénován, nejsou specificky označena pro určitý výstup.
+BERT je před-trénován na neoznačených (unsupervised) jazykových reprezentacích, což znamená, že trénovací data, na kterých je trénován, nejsou specificky označena pro určitý výstup.
 Místo toho jsou použity rozsáhlé textové korpusy, které byly získány ze stránek jako jsou např. Wikipedie a BooksCorpus, které obsahují obecný textový materiál z různých zdrojů.
 
 Díky před trénování na rozsáhlých a různorodých textových korpusů BERT získává obecné jazykové znalosti, které mu umožňují lépe porozumět a reprezentovat různé textové vstupy.
@@ -187,8 +187,7 @@ Rozdíl ve významu slova `koruna' v následujících větách by měl být refl
 \end{itemize}
 
 BERT je obousměrným (bidirectional) modelem, což znamená, že bere v potaz kontext slova z obou směrů.
-Tato vlastnost je dosažena pomocí mechanismu nazývaného maskované modelování jazyka (masked language modeling), kdy BERT se učí předpovídat chybějící slova v textu.
-Při trénování jsou náhodně vybraná slova věty maskována a model se učí předpovídat původní tvar těchto slov na základě kontextu, který zahrnuje jak slova před nimi, tak slova za nimi.
+Tato vlastnost je dosažena pomocí mechanismu nazývaného maskované modelování jazyka (masked language modeling), kdy BERT se učí předpovídat chybějící slova v textu na základě kontextu, který zahrnuje jak slova před nimi, tak slova za nimi.
 
 Díky obousměrnému zohledňování kontextu je BERT schopen zachytit slovní vztahy a významy ve větách, které jsou důležité pro porozumění celému textu.
 Tím se odstraňuje omezení jednosměrných (unidirectional) modelů, které sledují kontext pouze z jednoho směru.

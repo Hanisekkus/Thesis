@@ -51,36 +51,6 @@
       \verb https://cs.wikipedia.org/wiki/Zpracov%C3%A1n%C3%AD_p%C5%99irozen%C3%A9ho_jazyka
       \endverb
     \endentry
-    \entry{link10}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f9b4af77c14777e85251f863168a01a5}{%
-           family={Vaidya},
-           familyi={V\bibinitperiod},
-           given={Neeraja},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{f9b4af77c14777e85251f863168a01a5}
-      \strng{fullhash}{f9b4af77c14777e85251f863168a01a5}
-      \strng{bibnamehash}{f9b4af77c14777e85251f863168a01a5}
-      \strng{authorbibnamehash}{f9b4af77c14777e85251f863168a01a5}
-      \strng{authornamehash}{f9b4af77c14777e85251f863168a01a5}
-      \strng{authorfullhash}{f9b4af77c14777e85251f863168a01a5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{5 Natural Language Processing Techniques for Extracting Information}
-      \field{urlday}{25}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
-      \endverb
-      \verb{url}
-      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
-      \endverb
-    \endentry
     \entry{link5}{online}{}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -221,6 +191,36 @@
       \endverb
       \verb{url}
       \verb https://towardsdatascience.com/skip-gram-nlp-context-words-prediction-algorithm-5bbf34f84e0c
+      \endverb
+    \endentry
+    \entry{link10}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f9b4af77c14777e85251f863168a01a5}{%
+           family={Vaidya},
+           familyi={V\bibinitperiod},
+           given={Neeraja},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{fullhash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{bibnamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authorbibnamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authornamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authorfullhash}{f9b4af77c14777e85251f863168a01a5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{5 Natural Language Processing Techniques for Extracting Information}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
+      \endverb
+      \verb{url}
+      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
       \endverb
     \endentry
     \entry{link1}{online}{}
