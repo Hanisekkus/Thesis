@@ -1,0 +1,248 @@
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
+\contentsline {chapter}{Seznam použitých symbolů a zkratek}{8}{chapter*.2}%
+\contentsline {chapter}{Seznam obr\'azk\r {u}}{9}{chapter*.3}%
+\contentsline {chapter}{Seznam tabulek}{11}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Seznámení}{13}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Zpracování přirozeného jazyka}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sentimentální analýza}{15}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Metody analýzy textu}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}One-hot kódování}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Nevýhody One-hot kódování}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Využití v praxi One-hot kódování}{17}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Vkládání slov}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Word2Vec}{18}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}GloVe}{19}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Continuous Bag-Of-Words}{21}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Skip-gram}{21}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}CBOW a Skip-gram porovnání}{21}{subsection.2.5.3}%
+\contentsline {chapter}{\numberline {3}Neuronové sítě}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Učení neuronové sítě}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Učení pod dohledem}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Volné učení}{24}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Rekurentní neuronové sítě}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Zjednodušeně popsané fungování rekurentní neuronové sítě}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Architektura rekurentních neuronových sítí}{25}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Neduhy rekurentních neuronových sítí}{26}{subsubsection.3.2.2.1}%
+\contentsline {section}{\numberline {3.3}Long Short-Term Memory}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Zapomnětlivá brána}{27}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Vstupní brána}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Výstupní brána}{28}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Gated Recurrent Unit}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Aktualizační brána}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Resetovací brána}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Porovnání}{29}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Popis sítě Transformer}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Vlastnosti}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Architektura}{31}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Kodér}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Dekodér}{32}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Multi-head Attention}{33}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}Počítání techniky Attention}{34}{subsubsection.4.2.3.1}%
+\contentsline {subsection}{\numberline {4.2.4}Poziční kódování}{35}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}Vstupní data}{35}{subsubsection.4.2.4.1}%
+\contentsline {section}{\numberline {4.3}Trénování modelu}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Aplikování}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.5}BERT}{37}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Ukázka obousměrného přístupu}{39}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Využití}{40}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {5}Detekce strojově přeložených textů}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Postup pro vytvoření klasifikátorů}{41}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Datové soubory}{42}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Dataset pouze s anglickými texty}{43}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Dataset přeložen do všech jazyků}{43}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Trénování}{44}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}LSTM a GRU modely}{44}{subsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.5.1}Technika GloVe}{44}{subsubsection.5.1.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.5.2}Technika Attention}{45}{subsubsection.5.1.5.2}%
+\contentsline {subsection}{\numberline {5.1.6}BERT}{45}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Výsledné klasifikátory anglického datasetu}{45}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Architektura klasifikátoru LSTM}{45}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Architektura klasifikátoru GRU}{46}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Architektura klasifikátoru LSTM s technikou GloVe}{46}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Architektura klasifikátoru GRU s technikou GloVe}{47}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Architektura klasifikátoru LSTM s technikou Attention}{48}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Architektura klasifikátoru GRU s technikou Attention}{48}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Architektura klasifikátoru BERT}{49}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Výsledky klasifikátorů}{50}{subsection.5.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.8.1}Trénovací fáze}{50}{subsubsection.5.2.8.1}%
+\contentsline {subsubsection}{\numberline {5.2.8.2}Počet trénovacích epoch}{54}{subsubsection.5.2.8.2}%
+\contentsline {subsubsection}{\numberline {5.2.8.3}Doba trénování}{54}{subsubsection.5.2.8.3}%
+\contentsline {subsubsection}{\numberline {5.2.8.4}Prioritizace predikce}{55}{subsubsection.5.2.8.4}%
+\contentsline {subsubsection}{\numberline {5.2.8.5}Predikce na reálných datech}{59}{subsubsection.5.2.8.5}%
+\contentsline {section}{\numberline {5.3}Výsledné klasifikátory více jazyčného datasetu}{60}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Architektura klasifikátoru LSTM}{60}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Architektura klasifikátoru GRU}{60}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Architektura klasifikátoru LSTM s technikou GloVe}{61}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Architektura klasifikátoru GRU s technikou GloVe}{62}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Architektura klasifikátoru LSTM s technikou Attention}{62}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Architektura klasifikátoru GRU s technikou Attention}{63}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Architektura klasifikátoru BERT}{64}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Výsledky klasifikátorů}{64}{subsection.5.3.8}%
+\contentsline {subsubsection}{\numberline {5.3.8.1}Trénovací fáze}{64}{subsubsection.5.3.8.1}%
+\contentsline {subsubsection}{\numberline {5.3.8.2}Počet trénovacích epoch}{69}{subsubsection.5.3.8.2}%
+\contentsline {subsubsection}{\numberline {5.3.8.3}Doba trénování}{69}{subsubsection.5.3.8.3}%
+\contentsline {subsubsection}{\numberline {5.3.8.4}Prioritizace predikce}{69}{subsubsection.5.3.8.4}%
+\contentsline {subsubsection}{\numberline {5.3.8.5}Predikce na reálných datech}{74}{subsubsection.5.3.8.5}%
+\contentsline {section}{\numberline {5.4}Porovnání klasifikátorů}{74}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Porovnání počtu parametrů}{75}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}Porovnání počtu parametrů na anglickém datasetu}{75}{subsubsection.5.4.1.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.2}Porovnání počtu parametrů na více jazyčném datasetu}{75}{subsubsection.5.4.1.2}%
+\contentsline {subsection}{\numberline {5.4.2}Porovnání doby trénování}{76}{subsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Klasifikátory trénovány na anglickém datasetu}{76}{subsubsection.5.4.2.1}%
+\contentsline {subsubsection}{\numberline {5.4.2.2}Klasifikátory trénovány na více jazyčném datasetu}{77}{subsubsection.5.4.2.2}%
+\contentsline {subsection}{\numberline {5.4.3}Porovnání v rámci metriky přesnosti nad testovacími daty}{77}{subsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.3.1}Klasifikátory trénovány na anglickém datasetu}{78}{subsubsection.5.4.3.1}%
+\contentsline {subsubsection}{\numberline {5.4.3.2}Klasifikátory trénovány na více jazyčném datasetu}{78}{subsubsection.5.4.3.2}%
+\contentsline {chapter}{\numberline {6}Závěr diplomové práci}{80}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Možná vylepšení}{80}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Zkušenost}{80}{section.6.2}%
+\contentsline {chapter}{Literatura}{82}{chapter*.81}%
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 

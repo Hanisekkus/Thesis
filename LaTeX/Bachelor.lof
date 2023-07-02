@@ -1,0 +1,202 @@
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces One-hot encoding~\blx@tocontentsinit {0}\cite {link5}\relax }}{16}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Word embedding~\blx@tocontentsinit {0}\cite {link5}\relax }}{18}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Word2Vec představení možností~\blx@tocontentsinit {0}\cite {link6}\relax }}{19}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces GloVe reprezentace slov ve 2D prostoru~\blx@tocontentsinit {0}\cite {link18}\relax }}{20}{figure.caption.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Model neuronu~\blx@tocontentsinit {0}\cite {link1}\relax }}{22}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces RNN architektura~\blx@tocontentsinit {0}\cite {link2}\relax }}{25}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces LSTM architektura~\blx@tocontentsinit {0}\cite {link3}\relax }}{27}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces LSTM architektura neuronu~\blx@tocontentsinit {0}\cite {link3}\relax }}{27}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces GRU architektura neuronu~\blx@tocontentsinit {0}\cite {link4}\relax }}{28}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces GRU význam operací~\blx@tocontentsinit {0}\cite {link4}\relax }}{28}{figure.caption.14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architektura Transformer sítí~\blx@tocontentsinit {0}\cite {link25}\relax }}{32}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Multi-head Attention~\blx@tocontentsinit {0}\cite {link25}\relax }}{33}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scaled Dot-Product Attention~\blx@tocontentsinit {0}\cite {link25}\relax }}{34}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Prezentována technika Attention~\blx@tocontentsinit {0}\cite {link25}\relax }}{35}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Zobrazení Positional Encoding techniky pro 128D vektor~\blx@tocontentsinit {0}\cite {link38}\relax }}{36}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces BERT model~\blx@tocontentsinit {0}\cite {link24}\relax }}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces BERT případ maskování~\blx@tocontentsinit {0}\cite {link24}\relax }}{40}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces BERT příklad sekvence~\blx@tocontentsinit {0}\cite {link24}\relax }}{40}{figure.caption.22}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Průběh trénování LSTM modelu v zobrazení metriky binární přesnosti\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Průběh trénování LSTM GloVe modelu v zobrazení metriky binární přesnosti\relax }}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Průběh trénování LSTM Attention modelu v zobrazení metriky binární přesnosti\relax }}{51}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Průběh trénování GRU modelu v zobrazení metriky binární přesnosti\relax }}{52}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Průběh trénování GRU modelu s technikou GloVe v zobrazení metriky binární přesnosti\relax }}{52}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Průběh trénování GRU modelu s technikou Attention v zobrazení metriky binární přesnosti\relax }}{53}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Průběh trénování BERT modelu v zobrazení metriky binární přesnosti\relax }}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Výsledné predikování LSTM modelu na testovacích datech zobrazené v confusion matrix\relax }}{56}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Výsledné predikování LSTM s technikou GloVe modelu na testovacích datech zobrazené v confusion matrix\relax }}{56}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Výsledné predikování LSTM s technikou Attention modelu na testovacích datech zobrazené v confusion matrix\relax }}{57}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Výsledné predikování GRU modelu na testovacích datech zobrazené v confusion matrix\relax }}{57}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Výsledné predikování GRU s technikou GloVe modelu na testovacích datech zobrazené v confusion matrix\relax }}{58}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Výsledné predikování GRU s technikou Attention modelu na testovacích datech zobrazené v confusion matrix\relax }}{58}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Výsledné predikování BERT modelu na testovacích datech zobrazené v confusion matrix\relax }}{59}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Průběh trénování LSTM modelu v zobrazení metriky binární přesnosti\relax }}{65}{figure.caption.57}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Průběh trénování LSTM GloVe modelu v zobrazení metriky binární přesnosti\relax }}{65}{figure.caption.58}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Průběh trénování LSTM Attention modelu v zobrazení metriky binární přesnosti\relax }}{66}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Průběh trénování GRU modelu v zobrazení metriky binární přesnosti\relax }}{66}{figure.caption.60}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Průběh trénování GRU s technikou GloVe modelu v zobrazení metriky binární přesnosti\relax }}{67}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Průběh trénování GRU modelu s technikou Attention v zobrazení metriky binární přesnosti\relax }}{67}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Průběh trénování BERT modelu v zobrazení metriky binární přesnosti\relax }}{68}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Výsledné predikování LSTM modelu na testovacích datech zobrazené v confusion matrix\relax }}{70}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Výsledné predikování LSTM s technikou GloVe modelu na testovacích datech zobrazené v confusion matrix\relax }}{71}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Výsledné predikování LSTM s technikou Attention modelu na testovacích datech zobrazené v confusion matrix\relax }}{71}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Výsledné predikování GRU modelu na testovacích datech zobrazené v confusion matrix\relax }}{72}{figure.caption.70}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Výsledné predikování GRU s technikou GloVe modelu na testovacích datech zobrazené v confusion matrix\relax }}{72}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Výsledné predikování GRU s technikou Attention modelu na testovacích datech zobrazené v confusion matrix\relax }}{73}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Výsledné predikování BERT modelu na testovacích datech zobrazené v confusion matrix\relax }}{73}{figure.caption.73}%
+\addvspace {10\p@ }
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 
+\babel@toc {czech}{}\relax 

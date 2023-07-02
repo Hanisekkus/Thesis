@@ -1,0 +1,700 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{link8}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Natural language processing}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Natural_language_processing
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Natural_language_processing
+      \endverb
+    \endentry
+    \entry{link9}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Zpracování přirozeného jazyka}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/wiki/Zpracov%C3%A1n%C3%AD_p%C5%99irozen%C3%A9ho_jazyka
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/wiki/Zpracov%C3%A1n%C3%AD_p%C5%99irozen%C3%A9ho_jazyka
+      \endverb
+    \endentry
+    \entry{link10}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f9b4af77c14777e85251f863168a01a5}{%
+           family={Vaidya},
+           familyi={V\bibinitperiod},
+           given={Neeraja},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{fullhash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{bibnamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authorbibnamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authornamehash}{f9b4af77c14777e85251f863168a01a5}
+      \strng{authorfullhash}{f9b4af77c14777e85251f863168a01a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{5 Natural Language Processing Techniques for Extracting Information}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
+      \endverb
+      \verb{url}
+      \verb https://blog.aureusanalytics.com/blog/5-natural-language-processing-techniques-for-extracting-information
+      \endverb
+    \endentry
+    \entry{link5}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{Word embeddings}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/tutorials/text/word_embeddings
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/tutorials/text/word_embeddings
+      \endverb
+    \endentry
+    \entry{link6}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{A Beginner's Guide to Word2Vec and Neural Word Embeddings}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://wiki.pathmind.com/word2vec
+      \endverb
+      \verb{url}
+      \verb https://wiki.pathmind.com/word2vec
+      \endverb
+    \endentry
+    \entry{link18}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ab47b497d1b0cdaddd8594e4bd501ee5}{%
+           family={Pennington},
+           familyi={P\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d5670b2600fea169724521e252d9d09d}{%
+           family={Socher},
+           familyi={S\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff4377244c68b8beb3253e53d6387f94}{%
+           family={Manning},
+           familyi={M\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Doha, Qatar}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \strng{fullhash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \strng{bibnamehash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \strng{authorbibnamehash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \strng{authornamehash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \strng{authorfullhash}{1808086e3c6ed9cc95e38d0eb5455e5e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})}
+      \field{month}{10}
+      \field{title}{{G}lo{V}e: Global Vectors for Word Representation}
+      \field{year}{2014}
+      \field{pages}{1532\bibrangedash 1543}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.3115/v1/D14-1162
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/D14-1162
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/D14-1162
+      \endverb
+    \endentry
+    \entry{link12}{online}{}
+      \name{author}{1}{}{%
+        {{hash=218bbdf723d8796a94ba66209beebc28}{%
+           family={PhD},
+           familyi={P\bibinitperiod},
+           given={Jason\bibnamedelima Brownlee},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{218bbdf723d8796a94ba66209beebc28}
+      \strng{fullhash}{218bbdf723d8796a94ba66209beebc28}
+      \strng{bibnamehash}{218bbdf723d8796a94ba66209beebc28}
+      \strng{authorbibnamehash}{218bbdf723d8796a94ba66209beebc28}
+      \strng{authornamehash}{218bbdf723d8796a94ba66209beebc28}
+      \strng{authorfullhash}{218bbdf723d8796a94ba66209beebc28}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Gentle Introduction to the Bag-of-Words Model}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://machinelearningmastery.com/gentle-introduction-bag-words-model/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningmastery.com/gentle-introduction-bag-words-model/
+      \endverb
+    \endentry
+    \entry{link13}{online}{}
+      \name{author}{1}{}{%
+        {{hash=07a4a1423eae14fcc89ba95d908ed3b8}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Sanket},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \strng{fullhash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \strng{bibnamehash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \strng{authorbibnamehash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \strng{authornamehash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \strng{authorfullhash}{07a4a1423eae14fcc89ba95d908ed3b8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skip-Gram: NLP context words prediction algorithm}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/skip-gram-nlp-context-words-prediction-algorithm-5bbf34f84e0c
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/skip-gram-nlp-context-words-prediction-algorithm-5bbf34f84e0c
+      \endverb
+    \endentry
+    \entry{link1}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{title}{Umělá neuronová síť}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cs.wikipedia.org/wiki/Um%C4%9Bl%C3%A1_neuronov%C3%A1_s%C3%AD%C5%A54
+      \endverb
+      \verb{url}
+      \verb https://cs.wikipedia.org/wiki/Um%C4%9Bl%C3%A1_neuronov%C3%A1_s%C3%AD%C5%A54
+      \endverb
+    \endentry
+    \entry{link20}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ade9dbea7a5c23e962e07eb477ca9a19}{%
+           family={Harrison\bibnamedelima Kinsley},
+           familyi={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Daniel\bibnamedelima Kukieła},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \strng{fullhash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \strng{bibnamehash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \strng{authorbibnamehash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \strng{authornamehash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \strng{authorfullhash}{ade9dbea7a5c23e962e07eb477ca9a19}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{langidopts}{variant=american}
+      \field{shorttitle}{Neural Networks}
+      \field{title}{Neural Networks from Scratch in Python}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \keyw{primary}
+    \endentry
+    \entry{link16}{online}{}
+      \name{author}{1}{}{%
+        {{hash=34205253e789317c9ae45ea3ab0739ae}{%
+           family={Kostadinov},
+           familyi={K\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{fullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{bibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorbibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authornamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorfullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Recurrent Neural Networks work}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/learn-how-recurrent-neural-networks-work-84e975feaaf7
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/learn-how-recurrent-neural-networks-work-84e975feaaf7
+      \endverb
+    \endentry
+    \entry{link2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=46a51b7da80ac5c629f0109f3df0eb96}{%
+           family={Pedamallu},
+           familyi={P\bibinitperiod},
+           given={Hemanth},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \strng{fullhash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \strng{bibnamehash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \strng{authorbibnamehash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \strng{authornamehash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \strng{authorfullhash}{46a51b7da80ac5c629f0109f3df0eb96}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{RNN vs GRU vs LSTM}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/analytics-vidhya/rnn-vs-gru-vs-lstm-863b0b7b1573
+      \endverb
+      \verb{url}
+      \verb https://medium.com/analytics-vidhya/rnn-vs-gru-vs-lstm-863b0b7b1573
+      \endverb
+    \endentry
+    \entry{link3}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding LSTM Networks}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+      \endverb
+      \verb{url}
+      \verb http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+      \endverb
+    \endentry
+    \entry{link4}{online}{}
+      \name{author}{1}{}{%
+        {{hash=34205253e789317c9ae45ea3ab0739ae}{%
+           family={Kostadinov},
+           familyi={K\bibinitperiod},
+           given={Simeon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{fullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{bibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorbibnamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authornamehash}{34205253e789317c9ae45ea3ab0739ae}
+      \strng{authorfullhash}{34205253e789317c9ae45ea3ab0739ae}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding GRU Networks}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be
+      \endverb
+    \endentry
+    \entry{link31}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Brain}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Google_Brain
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Google_Brain
+      \endverb
+    \endentry
+    \entry{link27}{inproceedings}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \name{editor}{7}{}{%
+        {{hash=e7e74de725116358b68a6e890c026145}{%
+           family={Guyon},
+           familyi={G\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3b118a9660c18913c6d05d3bcfae41a3}{%
+           family={Luxburg},
+           familyi={L\bibinitperiod},
+           given={U.\bibnamedelimi Von},
+           giveni={U\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9b411b6c9cefdde16ffea77ecf612142}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1444141e07dd9549dbb4b8530fe4ec15}{%
+           family={Wallach},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=f3857e15544199442f3d4fb2cf6645b4}{%
+           family={Fergus},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c73f06e2fc98c9b0bf52eb5fdce61943}{%
+           family={Vishwanathan},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36b98b7ab533936cf1b5716148de704f}{%
+           family={Garnett},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorbibnamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authornamehash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{editorbibnamehash}{1564f811a39f09a7400a11284c987926}
+      \strng{editornamehash}{1564f811a39f09a7400a11284c987926}
+      \strng{editorfullhash}{1564f811a39f09a7400a11284c987926}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention is All you Need}
+      \field{volume}{30}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+      \endverb
+    \endentry
+    \entry{link28}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformer (machine learning model)}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)
+      \endverb
+    \endentry
+    \entry{link25}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Transformer model for language understanding}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tensorflow.org/text/tutorials/transformer
+      \endverb
+      \verb{url}
+      \verb https://www.tensorflow.org/text/tutorials/transformer
+      \endverb
+    \endentry
+    \entry{link38}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{Python}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.python.org/
+      \endverb
+      \verb{url}
+      \verb https://www.python.org/
+      \endverb
+    \endentry
+    \entry{link29}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, Minnesota}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5 (7.7 point absolute improvement), MultiNLI accuracy to 86.7{\%} (4.6{\%} absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).}
+      \field{booktitle}{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}
+      \field{month}{6}
+      \field{title}{{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding}
+      \field{year}{2019}
+      \field{pages}{4171\bibrangedash 4186}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/N19-1423
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/N19-1423
+      \endverb
+    \endentry
+    \entry{link24}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d27af698d89f1edfeeebbaa31694500d}{%
+           family={Jacob\bibnamedelima Devlin},
+           familyi={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Ming-Wei\bibnamedelima Chang},
+           giveni={M\bibinithyphendelim W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d27af698d89f1edfeeebbaa31694500d}
+      \strng{fullhash}{d27af698d89f1edfeeebbaa31694500d}
+      \strng{bibnamehash}{d27af698d89f1edfeeebbaa31694500d}
+      \strng{authorbibnamehash}{d27af698d89f1edfeeebbaa31694500d}
+      \strng{authornamehash}{d27af698d89f1edfeeebbaa31694500d}
+      \strng{authorfullhash}{d27af698d89f1edfeeebbaa31694500d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Open Sourcing BERT: State-of-the-Art Pre-training for Natural Language Processing}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
+      \endverb
+      \verb{url}
+      \verb https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html
+      \endverb
+    \endentry
+    \entry{link33}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Colab}
+      \field{urlday}{27}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://colab.research.google.com/
+      \endverb
+      \verb{url}
+      \verb https://colab.research.google.com/
+      \endverb
+    \endentry
+    \entry{link35}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{European Union Web}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://european-union.europa.eu
+      \endverb
+      \verb{url}
+      \verb https://european-union.europa.eu
+      \endverb
+    \endentry
+    \entry{link37}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Deepl}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.deepl.com
+      \endverb
+      \verb{url}
+      \verb https://www.deepl.com
+      \endverb
+    \endentry
+    \entry{link36}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Translate}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://translate.google.com/
+      \endverb
+      \verb{url}
+      \verb https://translate.google.com/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

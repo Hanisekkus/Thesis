@@ -1,0 +1,79 @@
+% Nejprve uvedeme tridu dokumentu s volbami
+\documentclass[czech,bachelor]{diploma}
+% Dalsi doplnujici baliky maker
+\usepackage[autostyle=true,czech=quotes]{csquotes} % korektni sazba uvozovek, podpora pro balik biblatex
+\usepackage[backend=biber, style=iso-numeric, alldates=iso]{biblatex} % bibliografie
+\usepackage{dcolumn} % sloupce tabulky s ciselnymi hodnotami
+\usepackage{subfig} % makra pro "podobrazky" a "podtabulky"
+\usepackage[cpp]{diplomalst}
+\usepackage{float}
+
+% Zadame pozadovane vstupy pro generovani titulnich stran.
+\ThesisAuthor{Bc. Jan Kusák}
+
+\ThesisSupervisor{prof. Ing. Jan Platoš, Ph.D.}
+
+\CzechThesisTitle{Detekce strojově přeložených textů pomocí strojového učení}
+
+\EnglishThesisTitle{Machine learning detection of machine translated texts}
+
+\SubmissionYear{2023}
+
+\ThesisAssignmentFileName{assignment.pdf}
+
+% Pokud nechceme nikomu dekovat makro zapoznamkujeme.
+\Acknowledgement{Rád bych poděkoval panu prof. Ing. Janu Platošovi, Ph.D. který mě uvedl do světa strojového učení. Ještě při mé bakalářské práci mě vzal pod svá křídla a otevřel mi dveře do této populární a již mnou oblíbené oblasti. Velmi si vážím jeho trpělivosti, střídmosti a množství cenných rad, které mi poskytl. Rovněž bych chtěl vyjádřit velké díky své rodině za veškerou podporu a motivaci. Také bych rád poděkoval svým přátelům za pomoc s korekturou a opravami mé diplomové práce.}
+
+\CzechAbstract{Cílem práce je podrobně popsat a navrhnout klasifikátor pro textová data, který bude schopný identifikovat strojově přeložené texty pomocí služeb Google Translate a DeepL. Pro dosažení tohoto cíle je nutné vytvořit vlastní dataset, na kterém budou různé architektury a modifikace modelů trénovány a následně testovány.}
+
+\CzechKeywords{Strojové učení, Neuronové sítě, Transformer, LSTM, GRU, BERT, NLP, Sémantická analýza, Dataset, Model}
+
+\EnglishAbstract{This thesis aims to comprehensively describe and design a text data classifier capable of detecting machine-translated texts that have been translated via Google Translate and DeepL. This task necessitates the creation of a customized dataset, on which various architectures and modifications of models will be trained and subsequently evaluated.}
+
+\EnglishKeywords{Machine learning, Neural Network, Transformer, LSTM, GRU, BERT, NLP, Semantic analysis, Dataset, Model}
+
+\AddAcronym{NN}{Neuronová síť}
+\AddAcronym{DNN}{Hluboká neuronová síť}
+\AddAcronym{RNN}{Rekurentní neuronová síť}
+\AddAcronym{LSTM}{Long Short-Term Memory}
+\AddAcronym{GRU}{Gated Recurrent Unit}
+\AddAcronym{Transformer}{Transformer neuronová síť}
+\AddAcronym{BERT}{Bidirectional Encoder Representations from Transformers}
+\AddAcronym{NLP}{Zpracování přitozeného jazyka}
+\AddAcronym{GloVe}{Global Vectors for Word Representation}
+
+\addbibresource{biblatex-examples.bib}
+\addbibresource{coffee.bib}
+
+% Novy druh tabulkoveho sloupce, ve kterem jsou cisla zarovnana podle desetinne carky
+\newcolumntype{d}[1]{D{,}{,}{#1}}
+
+
+% Zacatek dokumentu
+\begin{document}
+
+% Nechame vysazet titulni strany.
+\MakeTitlePages
+
+% Jsou v praci obrazky? Pokud ano vysazime jejich seznam a odstrankujeme.
+% Pokud ne smazeme nasledujici dve makra.
+\listoffigures
+\clearpage
+
+% Jsou v praci tabulky? Pokud ano vysazime jejich seznam a odstrankujeme.
+% Pokud ne smazeme nasledujici dve makra.
+\listoftables
+\clearpage
+
+% A nasleduje text zaverecne prace.
+\input{Chapters/Introduction.tex}
+\input{Chapters/AnalysisMethod.tex}
+\input{Chapters/NN.tex}
+\input{Chapters/Transformer.tex}
+\input{Chapters/Results.tex}
+\input{Chapters/Conclusion.tex}
+
+% Seznam literatury
+\printbibliography[title={Literatura}, heading=bibintoc]
+
+\end{document}
