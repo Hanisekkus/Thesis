@@ -1080,7 +1080,7 @@ To znamená, že model by měl být dostatečně komplexní, aby se naučil rele
 
 \subsubsection{Klasifikátory trénovány na anglickém datasetu}\label{subsec:EN cas}
 Doba trénování různých klasifikátorů~\ref{tab:res doba trenovani} tvoří podobné dvojice, kde techniky mají blízkou dobu trénování.
-Například v případě GloVe je rozdíl v době trénování mezi architekturami LSTM a GRU pouhých 17 vteřin.
+Například v případě GloVe je rozdíl v době trénování mezi architekturami LSTM a GRU pouhých 30 vteřin.
 
 Podobnost mezi těmito dvojicemi je způsobena nastavením počtu epoch pro trénování klasifikátorů.
 Když jsou stejné techniky natrénovány s podobným nebo identickým počtem epoch na trénovacích datech, dochází ke vzniku těchto podobností v době trénování.
@@ -1095,13 +1095,13 @@ BERT se stal jedním z nejvýkonnějších modelů pro zpracování přirozenéh
 			\toprule
 			Klasifikátor & doba trénování\\
 			\midrule
-			LSTM & 541s\\
-			GRU & 566s\\         
-			LSTM s technikou GloVe & 661s\\         
-			GRU s technikou GloVe & 644s\\         
-			LSTM s technikou Attention & 426s\\         
-			GRU s technikou Attention & 396s\\         
-			\textbf{BERT} & \textbf{1024s}\\         
+			LSTM & 573s\\
+			GRU & 545s\\         
+			LSTM s technikou GloVe & 644s\\         
+			GRU s technikou GloVe & 616s\\         
+			LSTM s technikou Attention & 521s\\         
+			GRU s technikou Attention & 491s\\         
+			\textbf{BERT} & \textbf{1058s}\\         
 			\midrule
 		\end{tabular}
 \end{table}
@@ -1144,7 +1144,7 @@ Vyšší přesnost znamená, že model správně identifikuje většinu strojov�
 
 \subsubsection{Klasifikátory trénovány na anglickém datasetu}
 Finální a nejdůležitější porovnání mezi klasifikátory je na základě metriky přesnosti~\ref{tab:res metrika presnosti}.
-Všechny modely dosáhly přesnosti vyšší než 60 \%, přičemž nejvyšší přesnost zaznamenal klasifikátor BERT s hodnotou 66 \%.
+Všechny modely dosáhly přesnosti vyšší než 60 \%, přičemž nejvyšší přesnost zaznamenal klasifikátor BERT s hodnotou 69 \%.
 
 Tento výsledek naznačuje, že BERT je nejefektivnějším klasifikátorem v daném kontextu.
 Je však také důležité vzít v úvahu další faktory, jako jsou rychlost trénování, náročnost implementace a případné omezení modelu v praxi.
@@ -1157,13 +1157,13 @@ Nicméně z hlediska dosažené přesnosti se klasifikátor BERT ukazuje jako ne
 			\toprule
 			Klasifikátor & přesnost\\
 			\midrule
-			LSTM & 63 \%\\
-			GRU & 60 \%\\         
-			LSTM s technikou GloVe & 61 \%\\         
+			LSTM & 67 \%\\
+			GRU & 66 \%\\         
+			LSTM s technikou GloVe & 66 \%\\         
 			GRU s technikou GloVe & 65 \%\\         
-			LSTM s technikou Attention & 63 \%\\         
-			GRU s technikou Attention & 64 \%\\         
-			\textbf{BERT} & \textbf{66 \%} \\         
+			LSTM s technikou Attention & 68 \%\\         
+			GRU s technikou Attention & 67 \%\\         
+			\textbf{BERT} & \textbf{69 \%} \\         
 			\midrule
 		\end{tabular}
 \end{table}

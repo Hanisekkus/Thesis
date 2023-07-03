@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber Bachelor"] 1688310713 "Bachelor.bcf" "Bachelor.bbl" "Bachelor" 1688311421 0
+["biber Bachelor"] 1688310713 "Bachelor.bcf" "Bachelor.bbl" "Bachelor" 1688393905 0
   "./coffee.bib" 1687896863 9315 3d89299e67d1e1dd40d912f662ef152b ""
-  "Bachelor.bcf" 1688311420 111635 053cb19478b8260a2ef7737d40995c0e "pdflatex"
+  "Bachelor.bcf" 1688393904 111635 053cb19478b8260a2ef7737d40995c0e "pdflatex"
   "C:/Users/Johny/AppData/Local/Programs/MiKTeX/bibtex/bib/biblatex/biblatex-examples.bib" 1679059282 68013 b4cad461b7e5913bdc3c009bc8e105ac ""
   (generated)
   "Bachelor.bbl"
   "Bachelor.blg"
   (rewritten before read)
-["pdflatex"] 1688311417 "c:/Users/Johny/Desktop/Diplomka/Diploma/Bachelor.tex" "Bachelor.pdf" "Bachelor" 1688311421 0
-  "<pdfa.xmpi" 1688311418 5042 0 ""
-  "Bachelor.aux" 1688311420 55150 0f029548e8d6049a18741b9f94fe62ea "pdflatex"
+["pdflatex"] 1688393900 "c:/Users/Johny/Desktop/Diplomka/Diploma/Bachelor.tex" "Bachelor.pdf" "Bachelor" 1688393905 0
+  "<pdfa.xmpi" 1688393901 5042 0 ""
+  "Bachelor.aux" 1688393904 55150 0f029548e8d6049a18741b9f94fe62ea "pdflatex"
   "Bachelor.bbl" 1688310717 27616 9110ab2bac570e7f418bb7c370529f65 "biber Bachelor"
-  "Bachelor.lof" 1688311420 12103 79932f93312f3d0f8516d7646115c9d7 "pdflatex"
-  "Bachelor.lot" 1688311420 7904 4b0e1249cb947eac6b6e8182a0e73c33 "pdflatex"
-  "Bachelor.out" 1688311420 4893 f9354ad7760b7aa96a782b99e92436a1 "pdflatex"
-  "Bachelor.run.xml" 1688311420 2572 aca7463c020cb690165d00ebd156a85f "pdflatex"
-  "Bachelor.tex" 1688294985 3777 52b6dfd71fa1eb02b41125bb307bd603 ""
-  "Bachelor.toc" 1688311420 13647 32284ef6b4a186e735ca1ab9d88496e6 "pdflatex"
+  "Bachelor.lof" 1688393904 12103 79932f93312f3d0f8516d7646115c9d7 "pdflatex"
+  "Bachelor.lot" 1688393904 7904 4b0e1249cb947eac6b6e8182a0e73c33 "pdflatex"
+  "Bachelor.out" 1688393904 4893 f9354ad7760b7aa96a782b99e92436a1 "pdflatex"
+  "Bachelor.run.xml" 1688393904 2572 aca7463c020cb690165d00ebd156a85f "pdflatex"
+  "Bachelor.tex" 1688393899 3778 4756ae178ac3d211ce62ceb86f9f4128 ""
+  "Bachelor.toc" 1688393904 13647 32284ef6b4a186e735ca1ab9d88496e6 "pdflatex"
   "C:/Users/Johny/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1683020795 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Johny/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1683020754 23183116 6406d4f99963c9fc0e91f4cbfc840669 ""
   "C:/Users/Johny/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -213,9 +213,9 @@
   "C:/Users/Johny/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
   "Chapters/1_Introduction.tex" 1688310492 2983 231ac62112ef45dbccb77ea5acdcb7dd ""
   "Chapters/2_AnalysisMethod.tex" 1688311076 13062 ecf277c040b0485f4fc2bbc78840e1de ""
-  "Chapters/3_NN.tex" 1688311417 16321 6f1f41d3c42caa6b1ed4cfcd6ea6349a ""
+  "Chapters/3_NN.tex" 1688311480 16321 6f1f41d3c42caa6b1ed4cfcd6ea6349a ""
   "Chapters/4_Transformer.tex" 1688311297 20409 e2bcaec524d68a0303dc8a397f47bd5b ""
-  "Chapters/5_Results.tex" 1688308870 130426 8ed13ebc863cf769c8ebdfb40f2b8ce8 ""
+  "Chapters/5_Results.tex" 1688325890 130426 a9513fb5f6bdc885c67b7c286ec4e031 ""
   "Chapters/6_Conclusion.tex" 1688303316 2268 6ad2c2fe0528daf3bc23e50f7a03edeb ""
   "Figures/BERT.png" 1654975942 88351 512437374ce243aa8f234a53143f9055 ""
   "Figures/BERT_bi.png" 1654976592 38100 c177dd72d5df839ab806e87b3004ef2b ""
@@ -265,10 +265,10 @@
   "Figures/transformer_enco_deco.png" 1655026692 111703 f62c4c0574455be0c54c273dd090b73a ""
   "Figures/word2vec_diagrams.png" 1619427140 67149 134650cb47274600ca9b5dd87b0481b4 ""
   "assignment.pdf" 1687120107 127713 6e2e8f4df044d35187ce8ddde60d98bb ""
-  "c:/Users/Johny/Desktop/Diplomka/Diploma/Bachelor.tex" 1688294985 3777 52b6dfd71fa1eb02b41125bb307bd603 ""
+  "c:/Users/Johny/Desktop/Diplomka/Diploma/Bachelor.tex" 1688393899 3778 4756ae178ac3d211ce62ceb86f9f4128 ""
   "diploma.cls" 1683020783 12503 486e0a188d1e4b575752acc36b67751a ""
   "diplomalst.sty" 1619109076 3334 0cdefc070a5e016f9660d6cca103c57b ""
-  "pdfa.xmpi" 1688311418 5042 59b73c71d098e57afd6d97f06d7972a8 "pdflatex"
+  "pdfa.xmpi" 1688393901 5042 0207cee693d9d9f5b78b05abd437c0f2 "pdflatex"
   (generated)
   "Bachelor.aux"
   "Bachelor.bcf"
